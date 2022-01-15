@@ -1,0 +1,13 @@
+C:\Users\mathe\source\repos\Localiza.Frotas\Localica.Frotas.Infra\bin\Debug\netcoreapp3.1\Localica.Frotas.Infra.deps.json
+C:\Users\mathe\source\repos\Localiza.Frotas\Localica.Frotas.Infra\bin\Debug\netcoreapp3.1\Localica.Frotas.Infra.dll
+C:\Users\mathe\source\repos\Localiza.Frotas\Localica.Frotas.Infra\bin\Debug\netcoreapp3.1\Localica.Frotas.Infra.pdb
+C:\Users\mathe\source\repos\Localiza.Frotas\Localica.Frotas.Infra\obj\Debug\netcoreapp3.1\Localica.Frotas.Infra.csproj.AssemblyReference.cache
+C:\Users\mathe\source\repos\Localiza.Frotas\Localica.Frotas.Infra\obj\Debug\netcoreapp3.1\Localica.Frotas.Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mathe\source\repos\Localiza.Frotas\Localica.Frotas.Infra\obj\Debug\netcoreapp3.1\Localica.Frotas.Infra.AssemblyInfoInputs.cache
+C:\Users\mathe\source\repos\Localiza.Frotas\Localica.Frotas.Infra\obj\Debug\netcoreapp3.1\Localica.Frotas.Infra.AssemblyInfo.cs
+C:\Users\mathe\source\repos\Localiza.Frotas\Localica.Frotas.Infra\obj\Debug\netcoreapp3.1\Localica.Frotas.Infra.csproj.CoreCompileInputs.cache
+C:\Users\mathe\source\repos\Localiza.Frotas\Localica.Frotas.Infra\obj\Debug\netcoreapp3.1\Localica.Frotas.Infra.dll
+C:\Users\mathe\source\repos\Localiza.Frotas\Localica.Frotas.Infra\obj\Debug\netcoreapp3.1\Localica.Frotas.Infra.pdb
+C:\Users\mathe\source\repos\Localiza.Frotas\Localica.Frotas.Infra\bin\Debug\netcoreapp3.1\Localica.Frotas.Domain.dll
+C:\Users\mathe\source\repos\Localiza.Frotas\Localica.Frotas.Infra\bin\Debug\netcoreapp3.1\Localica.Frotas.Domain.pdb
+C:\Users\mathe\source\repos\Localiza.Frotas\Localica.Frotas.Infra\obj\Debug\netcoreapp3.1\Localica.Frotas.Infra.csproj.CopyComplete

@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>C:\Users\mathe\source\repos\Localiza.Frotas\Localiza.Frotas\Localiza.Frotas.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Localica.Frotas.Domain\Localica.Frotas.Domain.csproj" />
+    <ProjectReference Include="..\Localica.Frotas.Infra\Localica.Frotas.Infra.csproj" />
+  </ItemGroup>
+
+
+</Project>
