@@ -11,3 +11,16 @@ C:\Users\mathe\source\repos\Localiza.Frotas\Localica.Frotas.Infra\obj\Debug\netc
 C:\Users\mathe\source\repos\Localiza.Frotas\Localica.Frotas.Infra\bin\Debug\netcoreapp3.1\Localica.Frotas.Domain.dll
 C:\Users\mathe\source\repos\Localiza.Frotas\Localica.Frotas.Infra\bin\Debug\netcoreapp3.1\Localica.Frotas.Domain.pdb
 C:\Users\mathe\source\repos\Localiza.Frotas\Localica.Frotas.Infra\obj\Debug\netcoreapp3.1\Localica.Frotas.Infra.csproj.CopyComplete
+G:\ProjetoAPi\Projeto-Api-Catalogo-De-jogos\Localiza.Frotas.API\Localica.Frotas.Infra\bin\Debug\netcoreapp3.1\Localica.Frotas.Infra.deps.json
+G:\ProjetoAPi\Projeto-Api-Catalogo-De-jogos\Localiza.Frotas.API\Localica.Frotas.Infra\bin\Debug\netcoreapp3.1\Localica.Frotas.Infra.dll
+G:\ProjetoAPi\Projeto-Api-Catalogo-De-jogos\Localiza.Frotas.API\Localica.Frotas.Infra\bin\Debug\netcoreapp3.1\Localica.Frotas.Infra.pdb
+G:\ProjetoAPi\Projeto-Api-Catalogo-De-jogos\Localiza.Frotas.API\Localica.Frotas.Infra\bin\Debug\netcoreapp3.1\Localica.Frotas.Domain.dll
+G:\ProjetoAPi\Projeto-Api-Catalogo-De-jogos\Localiza.Frotas.API\Localica.Frotas.Infra\bin\Debug\netcoreapp3.1\Localica.Frotas.Domain.pdb
+G:\ProjetoAPi\Projeto-Api-Catalogo-De-jogos\Localiza.Frotas.API\Localica.Frotas.Infra\obj\Debug\netcoreapp3.1\Localica.Frotas.Infra.csproj.AssemblyReference.cache
+G:\ProjetoAPi\Projeto-Api-Catalogo-De-jogos\Localiza.Frotas.API\Localica.Frotas.Infra\obj\Debug\netcoreapp3.1\Localica.Frotas.Infra.GeneratedMSBuildEditorConfig.editorconfig
+G:\ProjetoAPi\Projeto-Api-Catalogo-De-jogos\Localiza.Frotas.API\Localica.Frotas.Infra\obj\Debug\netcoreapp3.1\Localica.Frotas.Infra.AssemblyInfoInputs.cache
+G:\ProjetoAPi\Projeto-Api-Catalogo-De-jogos\Localiza.Frotas.API\Localica.Frotas.Infra\obj\Debug\netcoreapp3.1\Localica.Frotas.Infra.AssemblyInfo.cs
+G:\ProjetoAPi\Projeto-Api-Catalogo-De-jogos\Localiza.Frotas.API\Localica.Frotas.Infra\obj\Debug\netcoreapp3.1\Localica.Frotas.Infra.csproj.CoreCompileInputs.cache
+G:\ProjetoAPi\Projeto-Api-Catalogo-De-jogos\Localiza.Frotas.API\Localica.Frotas.Infra\obj\Debug\netcoreapp3.1\Localica.Frotas.Infra.csproj.CopyComplete
+G:\ProjetoAPi\Projeto-Api-Catalogo-De-jogos\Localiza.Frotas.API\Localica.Frotas.Infra\obj\Debug\netcoreapp3.1\Localica.Frotas.Infra.dll
+G:\ProjetoAPi\Projeto-Api-Catalogo-De-jogos\Localiza.Frotas.API\Localica.Frotas.Infra\obj\Debug\netcoreapp3.1\Localica.Frotas.Infra.pdb

@@ -6,7 +6,7 @@ using System.Text;
 
 namespace Localica.Frotas.Infra.Repository
 {
-    public class InMemoryRepository : IveiculosRepository
+    public class InMemoryRepository // : IveiculosRepository
     {
 
         private readonly List<Veiculo> listVeiculos = new List<Veiculo>();

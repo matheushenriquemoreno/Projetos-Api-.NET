@@ -1,3 +1,6 @@
+using ApiCatalogoJogs.Controllers.VersionamentoRotaV1;
+using ApiCatalogoJogs.Repositories;
+using ApiCatalogoJogs.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -9,7 +12,9 @@ using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Threading.Tasks;
 
 namespace ApiCatalogoJogs
@@ -27,10 +32,33 @@ namespace ApiCatalogoJogs
         public void ConfigureServices(IServiceCollection services)
         {
 
+            /*          Injetando a depencia 
+                        
+                        
+            
+                         Toda vez que a interface IjogoService estiver em um contrutor tem que dar uma instancia de JogoService.
+             
+             
+             */
+
+            services.AddScoped<IjogoService, JogoService>(); // primeiro a interface, depois a classe que implementa ela.
+            services.AddScoped<IjogoRepository, JogoRepository>();
+
+
+            services.AddTransient<IExemploTransient, ExemploCicloDeVida>();
+            services.AddScoped<IExemploScoped, ExemploCicloDeVida>();
+            services.AddSingleton<IExemploSingleton, ExemploCicloDeVida>(); 
+
+
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "ApiCatalogoJogs", Version = "v1" });
+
+
+                var basePath = AppDomain.CurrentDomain.BaseDirectory;
+                var arquivoNome = typeof(Startup).GetTypeInfo().Assembly.GetName().Name + ".xml";
+                c.IncludeXmlComments(Path.Combine(basePath, arquivoNome));
             });
         }
 

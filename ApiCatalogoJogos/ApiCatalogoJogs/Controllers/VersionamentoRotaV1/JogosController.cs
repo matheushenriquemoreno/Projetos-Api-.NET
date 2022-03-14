@@ -43,11 +43,12 @@ namespace ApiCatalogoJogs.Controllers.VersionamentoRotaV1
              Delete -> excluir
          */
 
-        [HttpGet]                                                 
-        public async Task<ActionResult<List<JogoViewModel>>> Obter([FromQuery, Range(1,int.MaxValue)] int pagina = 1, [FromQuery, Range(1, 50)] int quantidade = 5)
+
+        [HttpGet]
+        public async Task<ActionResult<List<JogoViewModel>>> Obter([FromQuery, Range(1, int.MaxValue)] int pagina = 1, [FromQuery, Range(1, 50)] int quantidade = 5)
         {
 
-            var resultado = await _jogoService.Obter(1, 5);
+            var resultado = await _jogoService.Obter(pagina, quantidade);
 
             if (resultado.Count == 0)
                 return NoContent();
@@ -68,10 +69,10 @@ namespace ApiCatalogoJogs.Controllers.VersionamentoRotaV1
          */
 
 
-        [HttpGet("{idJogo:guid}")]                      
-        public async Task<ActionResult<List<JogoViewModel>>> Obter([FromRoute]Guid idJogo)
+        [HttpGet("{idJogo:guid}")]
+        public async Task<ActionResult<List<JogoViewModel>>> Obter([FromRoute] Guid idJogo)
         {
-            var resultado = _jogoService.Obter(idJogo);
+            var resultado = await _jogoService.Obter(idJogo);
 
             if (resultado is null)
                 return NotFound();
@@ -106,7 +107,7 @@ namespace ApiCatalogoJogs.Controllers.VersionamentoRotaV1
             try
             {
 
-                 await _jogoService.Atualizar(idJogo, jogo);
+                await _jogoService.Atualizar(idJogo, jogo);
 
                 return Ok();
 

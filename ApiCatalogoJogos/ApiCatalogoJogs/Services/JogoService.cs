@@ -15,9 +15,9 @@ namespace ApiCatalogoJogs.Services
 
         private readonly IjogoRepository _repostorioJogo;
 
-        public JogoService(IjogoRepository repositori)
+        public JogoService(IjogoRepository repository)
         {
-            _repostorioJogo = repositori;
+            _repostorioJogo = repository;
         }
 
 

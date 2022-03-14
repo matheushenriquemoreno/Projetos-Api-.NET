@@ -16,11 +16,21 @@ namespace Localica.Frotas.Infra.Repository.Entiti
         public FrotaRepository(FrotaContext context)
         {
             this.dbContext = context;
+
         }
 
-        public void Add(Veiculo veiculo)
+        public void Add(InputVeiculoViewModel veiculo)
         {
-            dbContext.Veiculos.Add(veiculo);
+
+            var jogoNovo = new Veiculo
+            {
+                id = Guid.NewGuid(),
+                AnoFabricacao = veiculo.AnoFabricacao,
+                Marca = veiculo.Marca,
+                Placa = veiculo.Placa
+            };
+
+            dbContext.Veiculos.Add(jogoNovo);
             dbContext.SaveChanges();
         }
 
@@ -34,18 +44,17 @@ namespace Localica.Frotas.Infra.Repository.Entiti
 
         public Veiculo GetById(Guid id) => dbContext.Veiculos.Where(x => x.id == id).First();
 
-        public void Update(Guid id, Veiculo veiculo)
+        public void Update(Guid id, InputVeiculoViewModel veiculo)
         {
-            if(veiculo.id == id) // caso o usuario informe o mesmo id nas duas verificações o id não e mudado.
-            {
-                dbContext.Entry(veiculo).State = EntityState.Modified;
-                dbContext.SaveChanges();
-            }
-            else /* Mas como o id e alterado o comportamento a se fazer e excluir o objeto antigo e adicionar o novo com id pra não gerar registros duplos */
-            {
-                Delete(GetById(id));
-                Add(veiculo);
-            }
+            var veiculoUpdate = dbContext.Veiculos.Where(x => x.id == id).First();
+
+            veiculoUpdate.Marca = veiculo.Marca;
+            veiculoUpdate.AnoFabricacao = veiculo.AnoFabricacao;
+            veiculoUpdate.Placa = veiculo.Placa;
+
+
+            dbContext.Update(veiculoUpdate);
+            dbContext.SaveChanges();
             
         }
                                           

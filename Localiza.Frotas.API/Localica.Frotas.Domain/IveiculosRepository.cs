@@ -12,11 +12,11 @@ namespace Localica.Frotas.Domain
 
         List<Veiculo> GetAll();
 
-        void Add(Veiculo veiculo);
+        void Add(InputVeiculoViewModel veiculo);
 
         void Delete(Veiculo veiculo);
 
-        void Update(Guid id, Veiculo veiculo);
+        void Update(Guid id, InputVeiculoViewModel veiculo);
 
     }
 }

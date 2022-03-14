@@ -36,14 +36,14 @@ namespace Localiza.Frotas.Controllers
         }
 
         [HttpPost]
-        public IActionResult Post([FromBody] Veiculo veiculo)
+        public IActionResult Post([FromBody] InputVeiculoViewModel veiculo)
         {
             _repository.Add(veiculo);
-            return CreatedAtAction(nameof(Get), new { id = veiculo.id }, veiculo);
+            return CreatedAtAction(nameof(Get), veiculo);
         }
 
         [HttpPut("{id}")]
-        public IActionResult Put(Guid id, [FromBody] Veiculo veiculo)
+        public IActionResult Put(Guid id, [FromBody] InputVeiculoViewModel veiculo)
         {
 
             _repository.Update(id, veiculo);

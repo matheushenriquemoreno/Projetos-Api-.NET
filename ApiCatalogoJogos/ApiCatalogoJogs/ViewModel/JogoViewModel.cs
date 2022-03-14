@@ -7,6 +7,9 @@ namespace ApiCatalogoJogs.ViewModel
 {
     public class JogoViewModel
     {
+        /*
+         Utilizo essa clase quando vou mostrar dados na tela.
+         */
 
         public Guid ID { get; set; }
 

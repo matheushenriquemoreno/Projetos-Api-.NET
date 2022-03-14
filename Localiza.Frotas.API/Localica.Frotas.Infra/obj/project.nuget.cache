@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WLfZ6aA7ASkEyC70kMcaybZPnU2lHL3/xiSwWMYHYrbdsiro3+l+keQZ2fh5teSefXvjHbw2fluMwfgp0ajK5g==",
+  "dgSpecHash": "bShyQXjvBKgVVctdgB67PNmMIVGUIxwoTzqkJk8QjijVT+AcI0BcJHNTFsn50KBUrWeM78FEunCRGx2MrBnnOQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mathe\\source\\repos\\Localiza.Frotas\\Localica.Frotas.Infra\\Localica.Frotas.Infra.csproj",
+  "projectFilePath": "G:\\ProjetoAPi\\Projeto-Api-Catalogo-De-jogos\\Localiza.Frotas.API\\Localica.Frotas.Infra\\Localica.Frotas.Infra.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mathe\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.5\\microsoft.entityframeworkcore.5.0.5.nupkg.sha512",
     "C:\\Users\\mathe\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.5\\microsoft.entityframeworkcore.abstractions.5.0.5.nupkg.sha512",

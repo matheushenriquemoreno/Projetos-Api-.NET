@@ -52,7 +52,7 @@ namespace Localiza.Frotas
             });
 
 
-
+            services.AddScoped<PopulandoDados>();
 
             services.AddSingleton<SingletonContainer>(); // AddSingleton =  garante somete uma instancia enquanto estiver rodando a aplicação 
 
@@ -68,18 +68,19 @@ namespace Localiza.Frotas
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, PopulandoDados dados)
         {
             if (env.IsDevelopment())
             {
+                dados.Populando();
                 app.UseDeveloperExceptionPage();
+                app.UseSwagger();
+                app.UseSwaggerUI(c =>
+                {
+                    c.SwaggerEndpoint("/swagger/v1/swagger.json", "API Localiza.Frotas");
+                });
             }
 
-            app.UseSwagger();
-            app.UseSwaggerUI(c =>
-            { 
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "API Localiza.Frotas");  
-            });
 
             app.UseHttpsRedirection();
 

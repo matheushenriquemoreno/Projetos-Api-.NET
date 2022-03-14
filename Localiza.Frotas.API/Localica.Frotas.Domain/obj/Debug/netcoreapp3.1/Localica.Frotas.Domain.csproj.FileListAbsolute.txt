@@ -8,3 +8,13 @@ C:\Users\mathe\source\repos\Localiza.Frotas\Localica.Frotas.Domain\obj\Debug\net
 C:\Users\mathe\source\repos\Localiza.Frotas\Localica.Frotas.Domain\obj\Debug\netcoreapp3.1\Localica.Frotas.Domain.csproj.CoreCompileInputs.cache
 C:\Users\mathe\source\repos\Localiza.Frotas\Localica.Frotas.Domain\obj\Debug\netcoreapp3.1\Localica.Frotas.Domain.dll
 C:\Users\mathe\source\repos\Localiza.Frotas\Localica.Frotas.Domain\obj\Debug\netcoreapp3.1\Localica.Frotas.Domain.pdb
+G:\ProjetoAPi\Projeto-Api-Catalogo-De-jogos\Localiza.Frotas.API\Localica.Frotas.Domain\bin\Debug\netcoreapp3.1\Localica.Frotas.Domain.deps.json
+G:\ProjetoAPi\Projeto-Api-Catalogo-De-jogos\Localiza.Frotas.API\Localica.Frotas.Domain\bin\Debug\netcoreapp3.1\Localica.Frotas.Domain.dll
+G:\ProjetoAPi\Projeto-Api-Catalogo-De-jogos\Localiza.Frotas.API\Localica.Frotas.Domain\bin\Debug\netcoreapp3.1\Localica.Frotas.Domain.pdb
+G:\ProjetoAPi\Projeto-Api-Catalogo-De-jogos\Localiza.Frotas.API\Localica.Frotas.Domain\obj\Debug\netcoreapp3.1\Localica.Frotas.Domain.csproj.AssemblyReference.cache
+G:\ProjetoAPi\Projeto-Api-Catalogo-De-jogos\Localiza.Frotas.API\Localica.Frotas.Domain\obj\Debug\netcoreapp3.1\Localica.Frotas.Domain.GeneratedMSBuildEditorConfig.editorconfig
+G:\ProjetoAPi\Projeto-Api-Catalogo-De-jogos\Localiza.Frotas.API\Localica.Frotas.Domain\obj\Debug\netcoreapp3.1\Localica.Frotas.Domain.AssemblyInfoInputs.cache
+G:\ProjetoAPi\Projeto-Api-Catalogo-De-jogos\Localiza.Frotas.API\Localica.Frotas.Domain\obj\Debug\netcoreapp3.1\Localica.Frotas.Domain.AssemblyInfo.cs
+G:\ProjetoAPi\Projeto-Api-Catalogo-De-jogos\Localiza.Frotas.API\Localica.Frotas.Domain\obj\Debug\netcoreapp3.1\Localica.Frotas.Domain.csproj.CoreCompileInputs.cache
+G:\ProjetoAPi\Projeto-Api-Catalogo-De-jogos\Localiza.Frotas.API\Localica.Frotas.Domain\obj\Debug\netcoreapp3.1\Localica.Frotas.Domain.dll
+G:\ProjetoAPi\Projeto-Api-Catalogo-De-jogos\Localiza.Frotas.API\Localica.Frotas.Domain\obj\Debug\netcoreapp3.1\Localica.Frotas.Domain.pdb

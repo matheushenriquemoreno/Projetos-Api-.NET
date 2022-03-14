@@ -22,37 +22,45 @@ namespace ApiCatalogoJogs.Repositories
 
         public Task Atualizar(Jogo jogo)
         {
-            throw new NotImplementedException();
+            jogos[jogo.ID] = jogo;
+            return Task.CompletedTask;
         }
 
         public void Dispose()
         {
-            throw new NotImplementedException();
+            // fecha a conexao com o banco
         }
 
         public Task Inserir(Jogo jogo)
         {
-            throw new NotImplementedException();
+            jogos.Add(jogo.ID, jogo);
+            return Task.CompletedTask;
         }
 
         public Task<List<Jogo>> Obter(int pagina, int quantidade)
         {
-            throw new NotImplementedException();
+            return Task.FromResult(jogos.Values.Skip((pagina - 1) * quantidade).Take(quantidade).ToList());
         }
 
         public Task<Jogo> Obter(Guid id)
         {
-            throw new NotImplementedException();
+            if (!jogos.Any(x => x.Value.ID == id))
+            {
+                return Task.FromResult<Jogo>(null);
+            }
+            return Task.FromResult(jogos[id]);
         }
 
         public Task<List<Jogo>> Obter(string nome, string produtora)
         {
-            throw new NotImplementedException();
+            return Task.FromResult(jogos.Values.Where(x => x.Nome.Equals(nome) && x.Produtora.Equals(produtora)).ToList());
         }
 
         public Task Remover(Guid id)
         {
-            throw new NotImplementedException();
+            jogos.Remove(id);
+            return Task.CompletedTask;
+
         }
     }
 }

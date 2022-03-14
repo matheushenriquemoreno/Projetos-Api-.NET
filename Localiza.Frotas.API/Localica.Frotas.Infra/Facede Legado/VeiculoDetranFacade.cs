@@ -12,6 +12,13 @@ namespace Localica.Frotas.Infra.Facede
 {
     public class VeiculoDetranFacade : IveiculosDetran
     {
+
+        /*
+         Dentro da Api tem uma coneção com outra api que e gerada por essa classe mais infezlimente essa coneção não pode ser vista pois a api de destino não funciona mais.
+         Então todo essa pasta facede ficou so de aprendizado como conectar com outras APIs.
+         */
+
+
         private readonly DetranOptions  detranOptions;
         private readonly IHttpClientFactory htppCliente;
         private readonly IveiculosRepository _repository;
