@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vxlbaYQ9ffleIQQF1jBIWC3gajDJZued5PmSlwXGPA0Ryg8Qiairv8NGrU2RH/7G8tGie9weFcxGmsaN2oxBkQ==",
+  "dgSpecHash": "1gz9lBTRUsHgxymi3osTdStg0v9m23ETVPdsgIgLtTjwq2I8EbH3AeHzAfWhDGz5vEVI3Ersq/fEdLN0kVOK4A==",
   "success": true,
-  "projectFilePath": "G:\\ProjetoAPi\\Projeto-Api-Catalogo-De-jogos\\Localiza.Frotas.API\\Localiza.Frotas\\Localiza.Frotas.csproj",
+  "projectFilePath": "D:\\Projetos GitHub\\Projetos-Api-.NET\\Localiza.Frotas.API\\Localiza.Frotas\\Localiza.Frotas.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mathe\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.5\\microsoft.entityframeworkcore.5.0.5.nupkg.sha512",
     "C:\\Users\\mathe\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.5\\microsoft.entityframeworkcore.abstractions.5.0.5.nupkg.sha512",
@@ -28,7 +28,8 @@
     "C:\\Users\\mathe\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "C:\\Users\\mathe\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "C:\\Users\\mathe\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
-    "C:\\Users\\mathe\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    "C:\\Users\\mathe\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\mathe\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.21\\microsoft.netcore.app.host.win-x64.3.1.21.nupkg.sha512"
   ],
   "logs": []
 }

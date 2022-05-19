@@ -1,6 +1,7 @@
 using FilmesAPi.Data;
 using FilmesAPi.Repository;
 using FilmesAPi.Repository.Interfaces;
+using FilmesAPi.Repository.RepositoryEntitities;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -15,6 +16,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Newtonsoft.Json;
+using System.Text.Json;
+using System.Text.Json.Serialization;
 
 namespace FilmesAPi
 {
@@ -30,9 +34,17 @@ namespace FilmesAPi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<FilmeContext>(Opts => Opts.UseMySQL(Configuration.GetConnectionString("FilmeConecction")));
+            services.AddDbContext<AppDbContext>(Opts => Opts.UseLazyLoadingProxies().UseMySQL(Configuration.GetConnectionString("FilmeConecction")));
 
             services.AddTransient<IRepositoryFilme, RepositoryFilmes>();
+            services.AddTransient<IRepositoryCinema, RepositoryCinema>();
+            services.AddTransient<IRepositoryGerente, RepositoryGerente>();
+            services.AddTransient<IRepositorySessao, RepositorySessao>();
+
+            services.AddControllers().AddJsonOptions(options =>
+            {
+                options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.Preserve;
+            });
 
             services.AddControllers();
             services.AddSwaggerGen(c =>
@@ -41,8 +53,6 @@ namespace FilmesAPi
             });
 
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
-
-
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -1,0 +1,22 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace FilmesAPi.Models
+{
+    public class Gerente
+    {
+        [Key]
+        [Required]
+        public int Id { get; set; }
+        public string Nome { get; set; }
+        public virtual List<Cinema> CinemasGerenciados { get; set; }
+
+        public Gerente()
+        {
+            CinemasGerenciados = new List<Cinema>();
+        }
+    }
+}

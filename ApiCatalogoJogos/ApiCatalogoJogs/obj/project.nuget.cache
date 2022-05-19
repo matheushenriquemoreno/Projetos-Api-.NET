@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "D5n5y5Atr4tZVdPpMQlEEMCB1eV6t7vbyfhGmZj3KwBajX8910DUXKGghFHjPV410XyN/f5AuAeJtxZWHBSAjw==",
+  "dgSpecHash": "+4hzmRGEnCoTPqbJpXVwbjJkPWpVXWQRGcCKb28L/Hb9gOC5279sbVrxlTxL3WKflxTepkRkwwjh/y/ugLO+GQ==",
   "success": true,
-  "projectFilePath": "G:\\ProjetoAPi\\Projeto-Api-Catalogo-De-jogos\\ApiCatalogoJogos\\ApiCatalogoJogs\\ApiCatalogoJogs.csproj",
+  "projectFilePath": "D:\\Projetos GitHub\\Projetos-Api-.NET\\ApiCatalogoJogos\\ApiCatalogoJogs\\ApiCatalogoJogs.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mathe\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\mathe\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
@@ -18,7 +18,8 @@
     "C:\\Users\\mathe\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512",
     "C:\\Users\\mathe\\.nuget\\packages\\system.data.sqlclient\\4.8.3\\system.data.sqlclient.4.8.3.nupkg.sha512",
     "C:\\Users\\mathe\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
-    "C:\\Users\\mathe\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512"
+    "C:\\Users\\mathe\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
+    "C:\\Users\\mathe\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
   ],
   "logs": []
 }

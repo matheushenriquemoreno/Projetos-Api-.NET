@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
 
@@ -6,16 +7,13 @@ namespace FilmesAPi.Repository.Interfaces
 {
     public interface IRepositoryBase<T>
     {
-        List<T> BuscaTodos();
-        T GetByWhere(Expression<Func<T, bool>> expression);
+        IEnumerable<T> BuscaTodos();
+        T BuscarOnde(Expression<Func<T, bool>> expression);
 
-        T GetById(int id);
-        
-        void Adicionar(T objeto);
+        T Adicionar(T objeto);
 
         void Atualizar(T objeto);
 
-        void Remover(int id);
-
+        void Remover(T objeto);
     }
 }

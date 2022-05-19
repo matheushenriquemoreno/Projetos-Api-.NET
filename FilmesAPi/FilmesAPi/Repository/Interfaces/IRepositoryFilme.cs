@@ -8,5 +8,6 @@ namespace FilmesAPi.Repository.Interfaces
 {
     public interface IRepositoryFilme : IRepositoryBase<Filme>
     {
+
     }
 }

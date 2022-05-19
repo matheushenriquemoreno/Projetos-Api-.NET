@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Pp7/laIrgzI8XC/Y2u2Ws+eZemT6yR/8O66NldMPVgJvI0gWU9s76whdFZ1gl7eAmW5MttPodkiN+c8TtcbjPw==",
+  "dgSpecHash": "0KkjcpHjlvhmGhz6pdgwKj0/WoZbv3f3MxTP+MqLRRGi7+w5g0CB2rvh1vFteqrJJvT4rS5fmKDnNT/YgOEUqw==",
   "success": true,
-  "projectFilePath": "G:\\ProjetoAPi\\Projeto-Api-Catalogo-De-jogos\\Localiza.Frotas.API\\Localica.Frotas.Domain\\Localica.Frotas.Domain.csproj",
+  "projectFilePath": "D:\\Projetos GitHub\\Projetos-Api-.NET\\Localiza.Frotas.API\\Localica.Frotas.Domain\\Localica.Frotas.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

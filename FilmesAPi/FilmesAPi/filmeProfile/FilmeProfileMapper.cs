@@ -13,7 +13,7 @@ namespace FilmesAPi.filmeProfile
         public FilmeProfileMapper()
         {
             CreateMap<FilmeDto, Filme>();
-            CreateMap<Filme, FilmeDtoLeitura>();   
+            CreateMap<Filme, FilmeDtoLeitura>();
         }
     }
 }

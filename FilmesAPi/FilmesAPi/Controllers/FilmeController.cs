@@ -29,8 +29,10 @@ namespace FilmesAPi.Controllers
         {
             var filmeAdicionar = _mapper.Map<Filme>(filmeDto);
 
-            _repositoryBase.Adicionar(filmeAdicionar);
-            return CreatedAtAction(nameof(RecuperarFilmesPorId), new { Id = filmeAdicionar.Id }, filmeDto); // informa o caminho pra localizar onde o recurso foi criado, e mostra ele. 
+            filmeAdicionar = _repositoryBase.Adicionar(filmeAdicionar);
+
+            return Ok(filmeAdicionar);
+            //return CreatedAtAction(nameof(RecuperarFilmesPorId), new { Id = filmeAdicionar.Id }, filmeDto); // informa o caminho pra localizar onde o recurso foi criado, e mostra ele. 
         }
 
         [HttpGet]
@@ -42,7 +44,8 @@ namespace FilmesAPi.Controllers
         [HttpGet("{id}")]
         public IActionResult RecuperarFilmesPorId(int id)
         {
-            var filme = _repositoryBase.BuscaFilmeOnde(x => x.Id == id);
+            var filme = _repositoryBase.BuscarOnde(x => x.Id == id);
+           
             if (filme is null)
             {
                 return NotFound();
@@ -56,7 +59,7 @@ namespace FilmesAPi.Controllers
         [HttpPut("{id}")]
         public IActionResult AtualizaFilme(int id, [FromBody] FilmeDto filmeNovo)
         {
-            var filmeAtualizar = _repositoryBase.BuscaFilmeOnde(x => x.Id == id);
+            var filmeAtualizar = _repositoryBase.BuscarOnde(x => x.Id == id);
 
             if (filmeAtualizar is null)
             {
